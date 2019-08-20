@@ -37,7 +37,6 @@ server <- function(input, output) {
 
     library(nlme)
     library(lattice)
-    library(matrixcalc)
     library(Matrix)
     library(MASS)
     library(ggplot2)
@@ -64,7 +63,7 @@ server <- function(input, output) {
     }
     
     # start data frame
-    # simdat <- data.frame("id" = id, "time" = time)
+    simdat <- data.frame("id" = id, "time" = time)
     
     X1 <- model.matrix(~ 1 + time, data = simdat)
     Z1 <- model.matrix(~ 1 + time, data = simdat)
