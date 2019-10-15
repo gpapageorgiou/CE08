@@ -15,8 +15,27 @@ D_{A} = \left[
 \begin{equation*}
 D_{B} = \left[
 \begin{array}{cc}
-\sigma_{b_{0}}^{2} & \sigma_{b_{01}}^{2} \\ 
-\sigma_{b_{01}}^{2} & \sigma_{b_{1}}^{2} 
+\sigma_{b_{0}}^{2} & \sigma_{b_{01}} \\ 
+\sigma_{b_{01}} & \sigma_{b_{1}}^{2} 
+\end{array}
+\right]
+\end{equation*}
+
+\begin{equation*}
+D_{1} = \left[
+\begin{array}{cc}
+\sigma_{b_{0}}^{2} & \sigma_{b_{01}} \\ 
+\sigma_{b_{01}} & \sigma_{b_{1}}^{2} 
+\end{array}
+\right]
+\end{equation*}
+
+\begin{equation*}
+D_{2} = \left[
+\begin{array}{ccc}
+\sigma_{b_{0}}^{2} & \sigma_{b_{01}} & \sigma_{b_{02}} \\ 
+\sigma_{b_{01}} & \sigma_{b_{1}}^{2} & \sigma_{b_{12}} \\ 
+\sigma_{b_{02}} & \sigma_{b_{12}} & \sigma_{b_{2}}^{2}
 \end{array}
 \right]
 \end{equation*}
