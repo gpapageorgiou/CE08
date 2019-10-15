@@ -1,0 +1,22 @@
+---
+title: "CE08_Formulas_Matrices"
+output: pdf_document
+---
+
+\begin{equation*}
+D_{A} = \left[
+\begin{array}{c}
+\sigma_{b_{0}}^{2}
+\end{array}
+\right]
+\end{equation*}
+
+
+\begin{equation*}
+D_{B} = \left[
+\begin{array}{cc}
+\sigma_{b_{0}}^{2} & \sigma_{b_{01}}^{2} \\ 
+\sigma_{b_{01}}^{2} & \sigma_{b_{1}}^{2} 
+\end{array}
+\right]
+\end{equation*}
